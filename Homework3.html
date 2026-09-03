@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basketball Preferences</title>
+    </head>
+    <body>
+        <h1>Basketball Preferences</h1>
+        <h2>GET form</h2>
+            <label for="get-name">What is your name?</label>
+            <input type="text" id="get-name" name="name"><br>
+
+            <label for="get-team">What is your favorite basketball team?</label>
+            <input type="text" id="get-team" name="team"><br>
+
+            <label for="get-position">What position do you play?</label>
+            <select id="get-position" name="position">
+                <option value="None">Please select an answer</option>
+                <option>Point Guard</option>
+                <option>Shooting Guard</option>
+                <option>Small Forward</option>
+                <option>Power Forward</option>
+                <option>Center</option>
+                <option>Dont Play</option>
+            </select><br>
+
+            <label for="get-height">What is your height in inches?</label>
+            <input type="number" name="height" id="get-height" min="48" max="96" step="1"><br>
+
+            <label for="get-dob">Date of birth:</label>
+            <input type="date" id="get-dob" name="DOB"><br>
+
+            <label for="get-pswd">Password</label>
+            <input type="password" id="get-pswd" name="password"><br>
+
+            <p>Where do you like to watch basketball?<br>
+                <input type="radio" id="get-college" name="level" value="college" ><label for="get-college">College</label><br>
+
+                <input type="radio" id="get-nba" name="level" value="nba"><label for="get-nba">NBA</label><br>
+
+                <input type="radio" id="get-highschool" name="level" value="high-school"><label for="get-highschool">High School</label><br>
+
+                <input type="radio" id="get-international" name="level" value="international"><label for="get-international">International</label><br>
+            </p>
+
+            <p>What parts of basketball do you like? (check all that apply):<br>
+                <input type="checkbox" id="get-offense" name="offense" value="yes"><label for="get-offense">Offense</label><br>
+
+                <input type="checkbox" id="get-defense" name="defense" value="yes"><label for="get-defense">Defense</label><br>
+
+                <input type="checkbox" id="get-threepoint" name="threepoint" value="yes"><label for="get-threepoint">Three-point shooting</label><br>
+
+                <input type="checkbox" id="get-dunking" name="dunking" value="yes"><label for="get-dunking">Dunking</label><br>
+            </p>
+
+            <input type="hidden" name="survey" value="basketball-preferences">
+
+            <label for="get-comments">Additional comments:</label><br>
+            <textarea name="comments" id="get-comments"></textarea><br>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+
+                <h2>POST form</h2>
+            <label for="post-name">What is your name?</label>
+            <input type="text" id="post-name" name="name"><br>
+
+            <label for="post-team">What is your favorite basketball team?</label>
+            <input type="text" id="post-team" name="team"><br>
+
+            <label for="post-position">What position do you play?</label>
+            <select id="post-position" name="position">
+                <option value="None">Please select an answer</option>
+                <option>Point Guard</option>
+                <option>Shooting Guard</option>
+                <option>Small Forward</option>
+                <option>Power Forward</option>
+                <option>Center</option>
+                <option>Dont Play</option>
+            </select><br>
+
+            <label for="post-hours">How many hours per week do you play basketball?</label>
+            <input type="number" name="hours" id="post-hours" min="0" max="20" step="1"><br>
+
+            <label for="post-dob">Date of birth:</label>
+            <input type="date" id="post-dob" name="DOB"><br>
+
+            <label for="post-pswd">Password</label>
+            <input type="password" id="post-pswd" name="password"><br>
+
+            <p>Where do you like to watch basketball?<br>
+                <input type="radio" id="post-college" name="level" value="college"><label for="post-college">College</label><br>
+                
+                <input type="radio" id="post-nba" name="level" value="nba"><label for="post-nba">NBA</label><br>
+
+                <input type="radio" id="post-highschool" name="level" value="high-school"><label for="post-highschool">High School</label><br>
+
+                <input type="radio" id="post-international" name="level" value="international"><label for="post-international">International</label><br>
+            </p>
+
+            <p>What parts of basketball do you like? (check all that apply):<br>
+                <input type="checkbox" id="post-offense" name="offense" value="yes"><label for="post-offense">Offense</label><br>
+
+                <input type="checkbox" id="post-defense" name="defense" value="yes"><label for="post-defense">Defense</label><br>
+
+                <input type="checkbox" id="post-threepoint" name="threepoint" value="yes"><label for="post-threepoint">Three-point shooting</label><br>
+
+                <input type="checkbox" id="post-dunking" name="dunking" value="yes"><label for="post-dunking">Dunking</label><br>
+            </p>
+
+            <input type="hidden" name="survey" value="basketball-preferences">
+
+            <label for="post-comments">Additional comments:</label><br>
+            <textarea name="comments" id="post-comments"></textarea><br>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
