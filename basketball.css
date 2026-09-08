@@ -1,0 +1,21 @@
+body {background-color: gray; 
+    color: darkblue;}
+
+h1 {color: green}
+
+h2 {color: red}
+
+h1#title {font-size: 32px;}
+
+.instructions {font-size: 20px;}
+
+form:hover {background-color: rgb(234, 97, 97);}
+
+form > p {color: rgb(36, 15, 192);}
+
+textarea {text-decoration: underline;
+    text-align: left;}
+
+form {background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;}
